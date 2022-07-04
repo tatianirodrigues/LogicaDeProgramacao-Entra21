@@ -39,7 +39,7 @@ public class Exercicio1 {
 			System.out.println("\nCADASTRO JOGADORES" + "\n--------------------\nQual o seu nome?");
 			nome = entrada.nextLine();
 			
-			entrada.nextLine();
+			
 			
 			System.out.println("Qual a sua matrícula?");
 			matricula = entrada.nextInt();
@@ -77,6 +77,7 @@ public class Exercicio1 {
 				nFeminino++;
 			}
 		}
+			entrada.nextLine();
 		}
 		System.out.println("Este é o maior peso: " + maiorPeso + "KG" + "  Sua matrícula: " + matriculaMaiorPeso);
 		System.out.println("Este é o menor peso: " + menorPeso + "KG" + "  Sua matrícula: " + matriculaMenorPeso);
